@@ -1,0 +1,33 @@
+/* Get your css3 template from https://gist.github.com/lemonekq ! */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0; /* annoying div thingy */
+  background-color: #121212; /* useful typical dark mode color */
+  color: white; /* text color */
+}
+
+a {
+  text-decoration: none;
+  color: white; /* black / white (opposite light and dark color modes) */
+}
+
+.center-hv {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* zoomin */
+
+.zoom {
+  transition: transform .2s ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(0.95);
+}
